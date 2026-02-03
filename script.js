@@ -33,13 +33,11 @@ if (!validateDate(day, month, year)) {
 });
 
 // Validation function
-function validateDate(day, month, year) {
-    if (day < 1 || day > 31) return false;
-    if (month < 1 || month > 12) return false;
-    if (year < 1990 || year > 2026) return false;
-    return true;
-}
-
+function function validateDate(day, month, year) { 
+    if (day < 1 || day > 31) return false; 
+    if (month < 1 || month > 12) return false; 
+    if (year < 1900 || year > 2024) return false; return true;
+ }
 // Calculate day of week using the formula
 function calculateDayOfWeek(DD, MM, YYYY) {
     const CC = Math.floor(YYYY / 100); // century
@@ -66,7 +64,7 @@ function getAkanName(dayOfWeek, gender) {
 
 // Display Results
 function displayResult(name, day) {
-    resultDiv.innerHTML = `Your Akan Name is <strong>${name}</strong>! You were born on a ${day}.`;
+    resultDiv.innerHTML = `Your Akan name is <strong>${name}</strong>! You were born on a ${day}.`;
     resultDiv.classList.add('show');
 }
 
