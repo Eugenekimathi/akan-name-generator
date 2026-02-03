@@ -64,9 +64,9 @@ function getAkanName(dayOfWeek, gender) {
     }
 }
 
-// Display the result
+// Display Results
 function displayResult(name, day) {
-    resultDiv.innerHTML = `Your Akan name is <strong>${name}</strong>! You were born on a ${day}.`;
+    resultDiv.innerHTML = `Your Akan Name is <strong>${name}</strong>! You were born on a ${day}.`;
     resultDiv.classList.add('show');
 }
 
