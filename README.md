@@ -13,6 +13,11 @@ Kimathi.E
 3. Enter your birth date and gender
 4. Click "Get My Akan Name" to discover your Akan name!
 
+## Technologies
+HTML5
+CSS3
+JavaScript
+
 ## live Site 
 
 ## BDD (Behavior-Driven Development)
