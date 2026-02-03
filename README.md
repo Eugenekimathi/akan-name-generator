@@ -19,6 +19,7 @@ CSS3
 JavaScript
 
 ## live Site 
+https://github.com/Eugenekimathi/akan-name-generator
 
 ## BDD (Behavior-Driven Development)
 - **Input:** User enters day, month, year, and selects gender
