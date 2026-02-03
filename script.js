@@ -57,7 +57,7 @@ function calculateDayOfWeek(DD, MM, YYYY) {
 
 // Get Akan name based on day and gender
 function getAkanName(dayOfWeek, gender) {
-    if (gender === 'female') {
+    if (gender === 'male') {
         return maleNames[dayOfWeek];
     } else {
         return femaleNames[dayOfWeek];
