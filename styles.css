@@ -73,6 +73,6 @@ button:hover {
     color: #667eea;
     display:none;
 }
-#result.show {
-    display: block;
+#result.show{
+display: block;
 }
