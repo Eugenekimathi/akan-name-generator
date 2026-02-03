@@ -42,7 +42,7 @@ function validateDate(day, month, year) {
 
 // Calculate day of week using the formula
 function calculateDayOfWeek(DD, MM, YYYY) {
-    const CC = Math.floor(YYYY / 100); // Century
+    const CC = Math.floor(YYYY / 100); // century
     const YY = YYYY % 100; // Year within century
     
     const dayOfWeek = Math.floor(
