@@ -33,7 +33,7 @@ if (!validateDate(day, month, year)) {
 });
 
 // Validation function
-function function validateDate(day, month, year) { 
+function validateDate(day, month, year) { 
     if (day < 1 || day > 31) return false; 
     if (month < 1 || month > 12) return false; 
     if (year < 1900 || year > 2024) return false; return true;
